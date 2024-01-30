@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.shell {
+    width: 1000px;
+    height: 990px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part1 {
+    width: 1000px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.supercharged {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.supercharged_text {
+    width: 1000px;
+    height: 88px;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.part2 {
+    width: 680px;
+    height: 290px; 
+    margin: 63px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#mac_pic1 {
+    width: 312px;
+    height: 286px;
+    background-image: url("img.mac/beliy.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.part2_first {
+    width: 312px;
+    height: 286px;
+}
+
+.mac_text {
+    color: #000;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.text_under_mac_text {
+    width: 120px;
+    height: 32px;
+    color: #0071E3;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.mac_price {
+    width: 135px;
+    height: 60px;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.part2_second {
+    width: 292px;
+    height: 196px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.smth {
+    width: 292px;
+    height: 90px;
+}
+
+.part3 {
+    width: 322px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons {
+    width: 321px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#white {
+    width: 155px;
+    height: 42px;
+    border: 1px solid white;
+    background-color: #0071E3;
+    color: white;
+    border-radius: 10px;
+}
+
+#space_gray {
+    width: 155px;
+    height: 42px;
+    border: 1px solid #CFE7FF;
+    background-color: #CFE7FF;
+    border-radius: 10px;
+}
+
+.gigabytes {
+    width: 320px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gigabyte {
+    width: 320px;
+    height: 57px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.memory {
+    width: 93px;
+    height: 22px;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.memory1 {
+    width: 93px;
+    height: 22px;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0 0 10px;
+}
+
+.plus_price {
+    width: 48px;
+    height: 17px;
+    text-align: right;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+}
+
+.press{
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selected {        
+    border: 3px solid blue;
+}
